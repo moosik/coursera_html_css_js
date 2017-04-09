@@ -1,21 +1,30 @@
+/* defining the base styles */
+
 body{
-	font-family: "Times New Roman", Times, serif;
-	margin: 0; /* according to w3schools when using position */
-	padding: 0; /* according to w3schools when using position */
+	margin: 0px;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-div#menubox {
+/* page title */
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+/* menu box */
+#menubox {
 	background-color:grey;
-	border:2px solid black;
+	border: 1px solid black;
+	/*width: 90%;*/
+	margin: 10px;
 }
 
 
+/* general styling for the menus */
 .menutitle{
 	width: 90px;
 	border: 1px solid black; /* defined border style around */
@@ -26,19 +35,22 @@ div#menubox {
 	margin-bottom: 15px;
 }
 
-
+/* styling for the chicken menu */
 #chicken{
 	background-color: pink;
 }
 
+/* styling for the beef menu */
 #beef{
 	background-color: yellow;
 }
 
+/* styling for the sushi menu */
 #sushi{
 	background-color: blue;
 }
 
+/* styling for the paragraphs within each menu */
 p{
 	margin: 20px 15px 20px 15px;
 	text-align: left;
@@ -46,8 +58,45 @@ p{
 }
 
 
-h1 {
-	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 50px;
+
+/* media queries */
+
+.row {
+  width: 100%;
+}
+
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float:left;
+	}
+
+	.col-lg-4{
+		width: 33.33%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12{
+		float:left;
+	}
+
+	.col-md-6{
+		width: 50%;
+	}
+
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		float:left;
+	}
+
+	.col-sm-12{
+		width:100%;
+	}
 }
