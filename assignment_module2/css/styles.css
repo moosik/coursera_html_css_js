@@ -15,6 +15,7 @@ h1{
 	margin-bottom: 50px;
 	margin-top: 50px;
 	color: #2c7bb6;
+	font-size: 1.75em;
 }
 
 /* menu box */
@@ -35,6 +36,7 @@ h1{
 	text-align: center;
 	float: right;
 	margin-bottom: 15px;
+	ont-size: 1.25em;
 }
 
 /* styling for the chicken menu */
