@@ -1,13 +1,16 @@
 body {
   font-size: 16px;
+  background-color: #fedcd2;
 }
 
 
 /** HEADER **/
 #header-nav {
-  background-color: red; -->
+  background-color: #bfd8d2;
   border-radius: 0;
-  border: 0;
+  border-style: none none solid none;
+  border-color: #dcb239;
+  border-width: 2px;
 }
 
 
@@ -17,11 +20,11 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  color: black;
+  color: #df744a;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 1px #fedcd2;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -29,6 +32,34 @@ body {
 
 
 #nav-list {
-  color: #951C49;
+  color: grey;
   text-align: center;
+  margin-top: 10px;
+}
+
+#nav-list span {
+  font-size: 1.1em;
+}
+
+
+#main-text{
+  background-color: #bfd8d2;
+  border-radius: 15px;
+  border-style: solid ;
+  border-color: #dcb239;
+  border-width: 2px;
+  width: 100%;
+  color: grey;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+
+h2{
+  color: #df744a;
+  margin-bottom: 30px;
+}
+
+h3{
+  color: #df744a;
 }
